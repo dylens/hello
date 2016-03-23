@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import (
 	//net "code.google.com/p/go.net/websocket"
@@ -30,5 +30,7 @@ func main() {
 	c := [2][4]int{{1, 2, 3, 4}, {2, 3, 4, 5}}
 
 	slice := []int{2, 3, 5}
-
+	if arr[0]==42 {
+		arr[1]=13
+	}
 }
