@@ -33,4 +33,5 @@ func main() {
 	if arr[0]==42 {
 		arr[1]=13
 	}
+	io.print(arr[0])
 }
